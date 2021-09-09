@@ -6,11 +6,12 @@ const parse = require('csv-parse');
 const csvWriter = require('csv-writer').createObjectCsvWriter({
     path: 'out.csv',
     header: [
-        {id: 'search', title: 'Gesucht'},
+        {id: 'search', title: 'Search Term'},
         {id: 'name', title: 'Name'},
         {id: 'gameplayMain', title: 'Main Story'},
         {id: 'gameplayMainExtra', title: 'Main + Extras'},
         {id: 'gameplayComplete', title: 'Completionist'},
+        {id: 'similarity', title: 'Similarity'},
     ]
 })
 
@@ -31,18 +32,17 @@ fs.createReadStream('games.csv')
     })
     .on('end', function () {
         Promise.all(promises).then((values) => {
-            console.log(values);
             const data = [];
 
             for (const gameResults of values) {
                 for (const value of gameResults) {
-                    console.log(value)
                     data.push({
-                        search: value.search,
+                        search: value.searchTerm,
                         name: value.name,
                         gameplayMain: value.gameplayMain,
                         gameplayMainExtra: value.gameplayMainExtra,
                         gameplayComplete: value.gameplayCompletionist,
+                        similarity: value.similarity,
                     })
                 }
             }

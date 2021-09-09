@@ -1,6 +1,16 @@
-Gesucht,Name,Main Story,Main + Extras,Completionist
-Grand Theft Auto 5,Grand Theft Auto V,31.5,48,78.5
-Far Cry 5,Far Cry 5,18,29.5,44.5
-Far Cry 5,Far Cry 5 Lost On Mars,4.5,5,7
-Far Cry 5,Far Cry 5 Hours of Darkness,2,2.5,3.5
-Far Cry 5,Far Cry 5 Dead Living Zombies,2,2,3
+Search Term,Name,Main Story,Main + Extras,Completionist,Similarity
+Grand Theft Auto V,Grand Theft Auto V,31.5,48,79,1
+Grand Theft Auto V,Grand Theft Auto Vice City,19,27.5,43,0.69
+Grand Theft Auto V,Grand Theft Auto IV,28,41,76.5,0.95
+Grand Theft Auto V,Grand Theft Auto IV The Complete Edition,35.5,54,100,0.45
+Grand Theft Auto V,Grand Theft Auto IV The Lost and Damned,7,10.5,18.5,0.46
+Grand Theft Auto V,Grand Theft Auto Vice City Stories,16,25,43,0.53
+Grand Theft Auto V,Grand Theft Auto IV The Ballad of Gay Tony,8.5,12.5,23,0.43
+Grand Theft Auto V,Grand Theft Auto Advance,7,7,8.5,0.75
+Battlefield V,Battlefield V,6,8.5,24.5,1
+Battlefield V,Valkyria Chronicles Remastered,27.5,36,53,0.13
+Battlefield V,Battlefield Vietnam,13.5,15.5,18.5,0.68
+Far Cry 5,Far Cry 5,18,29.5,44.5,1
+Far Cry 5,Far Cry 5 Lost On Mars,4.5,5,7,0.41
+Far Cry 5,Far Cry 5 Hours of Darkness,2,2.5,3.5,0.33
+Far Cry 5,Far Cry 5 Dead Living Zombies,2,2,3,0.31
